@@ -1,5 +1,5 @@
 # 7Zip-Automated-Install
-Automatically installs 7Zip using PowerShell and practices outputting error handing logs. Requires PowerShell 6.2x as this uses -UseMinimalHeader parameter on Start-Transcript to remove some of the bloat from logs.
+Automatically installs 7Zip using PowerShell and practices outputting error handing logs. Requires PowerShell 6.2x+ as this uses -UseMinimalHeader parameter on Start-Transcript to remove some of the bloat from logs.
 
 This automatically installs 7Zip to C:\Program Files\7Zip, along with installing 7Zip it also creates a repo for the installer and a directory for the log file. 
 
